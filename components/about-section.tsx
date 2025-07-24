@@ -37,11 +37,10 @@ export default function AboutSection() {
           </div>
 
           <div className="md:pt-24 md:pb-12">
-            <div className="uppercase text-sm font-semibold tracking-wider text-gray-600 mb-2 ">About Us</div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            <h2 className="font-cinzel text-4xl md:text-5xl mb-6 leading-tight">
               Elevating Your Events with Exceptional Food.
             </h2>
-            <p className="text-gray-600 mb-10 text-lg">
+            <p className="font-opensans text-gray-600 mb-10 text-lg">
               Venus is The Place where Food is Celebrated over 25 Years. We Love to Create Unforgettable Culinary
               Experiences.
             </p>
@@ -67,8 +66,8 @@ export default function AboutSection() {
                   </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold">25</div>
-                  <div className="text-gray-600">Years of Experience</div>
+                  <div className=" text-2xl font-bold">25</div>
+                  <div className="font-prata text-gray-600">Years of Experience</div>
                 </div>
               </div>
 
@@ -93,7 +92,7 @@ export default function AboutSection() {
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold">2000+</div>
-                  <div className="text-gray-600">Successful Marriages</div>
+                  <div className="font-prata text-gray-600">Successful Marriages</div>
                 </div>
               </div>
 
@@ -116,7 +115,7 @@ export default function AboutSection() {
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold">98%</div>
-                  <div className="text-gray-600">Repeated Customers</div>
+                  <div className="font-prata text-gray-600">Repeated Customers</div>
                 </div>
               </div>
             </div>

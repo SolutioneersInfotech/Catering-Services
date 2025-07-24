@@ -46,12 +46,12 @@ export default function Home() {
           </CarouselContent>
         </Carousel>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 md:px-6">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Exquisite Catering for Memorable Events</h1>
-          <p className="text-xl text-white mb-8 max-w-2xl">
+          <h1 className="text-2xl md:text-6xl font-cinzel text-white mb-4">EXQUISITE CATERING FOR MEMORABLE EVENTS</h1>
+          <p className="font-opensans text-xl text-white mb-8 max-w-2xl">
             Elevate your gatherings with our premium catering services, tailored to your unique taste and style.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="bg-amber-600 hover:bg-amber-700 text-white">
+            <Button size="lg" className="font-lato bg-amber-600 hover:bg-amber-700 text-white">
               <Link href="/booking" className="flex items-center">
                 Book Now <Calendar className="ml-2 h-4 w-4" />
               </Link>
@@ -59,7 +59,7 @@ export default function Home() {
             <Button
               size="lg"
               variant="outline"
-              className="bg-white/10 backdrop-blur-sm text-white border-white hover:bg-white/20"
+              className="font-lato bg-white/10 backdrop-blur-sm text-white border-white hover:bg-white/20"
             >
               <Link href="/menu" className="flex items-center">
                 Explore Our Menu <ChevronRight className="ml-2 h-4 w-4" />
@@ -75,7 +75,7 @@ export default function Home() {
       {/* Features Section */}
       <section className="py-16 px-4 md:px-6 bg-white">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Why Choose Our Catering Services</h2>
+          <h2 className="font-playfair text-3xl font-bold text-center mb-12">Why Choose Our Catering Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="border-none shadow-md">
               <CardContent className="pt-6">
@@ -83,8 +83,8 @@ export default function Home() {
                   <div className="bg-amber-100 p-3 rounded-full mb-4">
                     <UtensilsCrossed className="h-6 w-6 text-amber-600" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Gourmet Cuisine</h3>
-                  <p className="text-gray-600">
+                  <h3 className="text-2xl font-baloo mb-2">Gourmet Cuisine</h3>
+                  <p className="font-opensans text-gray-600 text-lg">
                     Our expert chefs craft exquisite dishes using only the freshest, highest-quality ingredients.
                   </p>
                 </div>
@@ -97,8 +97,8 @@ export default function Home() {
                   <div className="bg-amber-100 p-3 rounded-full mb-4">
                     <Award className="h-6 w-6 text-amber-600" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Award-Winning Service</h3>
-                  <p className="text-gray-600">
+                  <h3 className="text-2xl font-baloo mb-2">Award-Winning Service</h3>
+                  <p className="font-opensans text-gray-600 text-lg">
                     With over 10 years of experience, our professional staff ensures flawless execution.
                   </p>
                 </div>
@@ -111,8 +111,8 @@ export default function Home() {
                   <div className="bg-amber-100 p-3 rounded-full mb-4">
                     <Users className="h-6 w-6 text-amber-600" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Customized Experience</h3>
-                  <p className="text-gray-600">
+                  <h3 className="text-2xl font-baloo mb-2">Customized Experience</h3>
+                  <p className="font-opensans text-gray-600 text-lg">
                     We tailor our menus and services to match your event's unique requirements and vision.
                   </p>
                 </div>
@@ -123,11 +123,11 @@ export default function Home() {
       </section>
 
       {/* Services Preview */}
-      <section className="py-16 px-4 md:px-6 bg-gray-50">
+      <section className="py-16 px-4 md:px-6">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Our Catering Services</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-playfair mb-4">Our Catering Services</h2>
+            <p className="font-opensans text-lg text-gray-600 max-w-2xl mx-auto">
               From intimate gatherings to grand celebrations, we offer a range of catering services to make your event
               unforgettable.
             </p>
@@ -155,7 +155,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-10">
-            <Button asChild>
+            <Button asChild className="font-lato">
               <Link href="/services" className="flex items-center">
                 View All Services <ChevronRight className="ml-2 h-4 w-4" />
               </Link>
@@ -168,8 +168,8 @@ export default function Home() {
       <section className="py-16 px-4 md:px-6 bg-white">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Sample Our Menu</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-playfair mb-4">Sample Our Menu</h2>
+            <p className="font-opensans text-lg text-gray-600 max-w-2xl mx-auto">
               Explore our diverse menu options featuring gourmet appetizers, entrées, and desserts.
             </p>
           </div>
@@ -199,7 +199,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-10">
-            <Button asChild>
+            <Button asChild className="font-lato">
               <Link href="/menu" className="flex items-center">
                 View Full Menu <ChevronRight className="ml-2 h-4 w-4" />
               </Link>
@@ -218,7 +218,7 @@ export default function Home() {
       {/* Testimonials */}
       <section className="py-16 px-4 md:px-6 bg-amber-50">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">What Our Clients Say</h2>
+          <h2 className="text-3xl font-playfair text-center mb-12">What Our Clients Say</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <TestimonialCard
@@ -246,8 +246,8 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-16 px-4 md:px-6 bg-amber-700 text-white">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Plan Your Event?</h2>
-          <p className="max-w-2xl mx-auto mb-8">
+          <h2 className="text-3xl font-playfair mb-4">Ready to Plan Your Event?</h2>
+          <p className="font-opensans text-lg max-w-2xl mx-auto mb-8">
             Contact us today to discuss your catering needs and receive a customized quote for your upcoming event.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -14,15 +14,15 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="relative h-[400px] w-full">
         <Image
-          src="/placeholder.svg?height=400&width=1200"
-          alt="About Gourmet Gatherings"
+          src="/about-halwai.jpeg"
+          alt="About The Halwai"
           fill
           className="object-cover brightness-[0.7]"
           priority
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 md:px-6">
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">About Gourmet Gatherings</h1>
-          <p className="text-xl text-white max-w-2xl">Crafting exceptional culinary experiences since 2010.</p>
+          <h1 className="text-3xl md:text-5xl font-cinzel text-white mb-4">About The Halwai</h1>
+          <p className="font-opensans text-xl text-white max-w-2xl">Crafting exceptional culinary experiences since 2010.</p>
         </div>
       </section>
 
@@ -32,25 +32,25 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="our-story.png"
                 alt="Our culinary team"
                 fill
                 className="object-cover rounded-lg"
               />
             </div>
             <div>
-              <h2 className="text-3xl font-bold mb-6">Our Story</h2>
-              <p className="text-gray-600 mb-4">
-                Gourmet Gatherings was founded in 2010 by Chef Michael Reynolds, whose passion for culinary excellence
+              <h2 className="font-cinzel text-3xl mb-6">Our Story</h2>
+              <p className="font-opensans text-gray-600 mb-4">
+                The Halwai was founded in 2010 by xyz, whose passion for culinary excellence
                 and exceptional service inspired him to create a catering company that would elevate events through
                 extraordinary food experiences.
               </p>
-              <p className="text-gray-600 mb-4">
+              <p className="font-opensans text-gray-600 mb-4">
                 What began as a small operation catering intimate dinner parties has grown into a premier catering
                 service trusted by individuals and corporations throughout the region. Our commitment to quality,
                 creativity, and customer satisfaction has remained unwavering throughout our journey.
               </p>
-              <p className="text-gray-600 mb-6">
+              <p className="font-opensans text-gray-600 mb-6">
                 Today, our team of experienced chefs, event planners, and service staff work together to create
                 memorable culinary experiences for weddings, corporate events, and private celebrations of all sizes.
               </p>
@@ -77,9 +77,9 @@ export default function AboutPage() {
       <section className="py-16 px-4 md:px-6 bg-amber-50">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Our Mission & Values</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              At Gourmet Gatherings, we're guided by a set of core principles that define who we are and how we operate.
+            <h2 className="font-cinzel text-3xl font-bold mb-4">Our Mission & Values</h2>
+            <p className="font-opensans text-gray-600 max-w-2xl mx-auto">
+              At The Halwai, we're guided by a set of core principles that define who we are and how we operate.
             </p>
           </div>
 
@@ -120,8 +120,8 @@ export default function AboutPage() {
               },
             ].map((section, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold mb-3">{section.title}</h3>
-                <p className="text-gray-600 mb-4">{section.description}</p>
+                <h3 className="text-xl font-cinzel mb-3">{section.title}</h3>
+                <p className=" font-opensans text-gray-600 mb-4">{section.description}</p>
                 <ul className="space-y-2">
                   {section.points.map((point, i) => (
                     <li key={i} className="flex items-start">
@@ -140,8 +140,8 @@ export default function AboutPage() {
       <section className="py-16 px-4 md:px-6 bg-white">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Meet Our Team</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-cinzel mb-4">Meet Our Team</h2>
+            <p className="font-opensans text-gray-600 max-w-2xl mx-auto">
               Our talented team of culinary professionals is passionate about creating exceptional food and memorable
               experiences.
             </p>
@@ -180,7 +180,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-1">{member.name}</h3>
                 <p className="text-amber-600 font-medium mb-2">{member.role}</p>
-                <p className="text-gray-600">{member.bio}</p>
+                <p className="font-opensans text-gray-600">{member.bio}</p>
               </div>
             ))}
           </div>
@@ -191,15 +191,15 @@ export default function AboutPage() {
       <section className="py-16 px-4 md:px-6 bg-gray-50">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Certifications & Achievements</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+            <h2 className="font-cinzel text-3xl font-bold mb-4">Certifications & Achievements</h2>
+            <p className="font-opensans text-gray-600 max-w-2xl mx-auto">
               Our commitment to excellence has been recognized through various certifications and awards.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold mb-4">Certifications</h3>
+              <h3 className="font-cinzel text-xl font-bold mb-4">Certifications</h3>
               <ul className="space-y-3">
                 {[
                   "ServSafe Certified Food Handlers",
@@ -210,14 +210,14 @@ export default function AboutPage() {
                 ].map((cert, index) => (
                   <li key={index} className="flex items-start">
                     <Award className="h-5 w-5 text-amber-600 mr-2 mt-0.5" />
-                    <span>{cert}</span>
+                    <span className="font-opensans">{cert}</span>
                   </li>
                 ))}
               </ul>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold mb-4">Awards & Recognition</h3>
+              <h3 className="font-cinzel text-xl font-bold mb-4">Awards & Recognition</h3>
               <ul className="space-y-3">
                 {[
                   "Best Catering Service - City Food Awards 2023",
@@ -228,7 +228,7 @@ export default function AboutPage() {
                 ].map((award, index) => (
                   <li key={index} className="flex items-start">
                     <Award className="h-5 w-5 text-amber-600 mr-2 mt-0.5" />
-                    <span>{award}</span>
+                    <span className="font-opensans">{award}</span>
                   </li>
                 ))}
               </ul>
@@ -242,8 +242,8 @@ export default function AboutPage() {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Our Commitment to Sustainability</h2>
-              <p className="text-gray-600 mb-4">
+              <h2 className="font-cinzel text-3xl font-bold mb-6">Our Commitment to Sustainability</h2>
+              <p className="font-opensans text-gray-600 mb-4">
                 At Gourmet Gatherings, we believe in responsible catering practices that minimize our environmental
                 impact while maximizing the quality of our food and service.
               </p>
@@ -257,18 +257,18 @@ export default function AboutPage() {
                 ].map((practice, index) => (
                   <li key={index} className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-amber-600 mr-2 mt-0.5" />
-                    <span>{practice}</span>
+                    <span className="font-opensans">{practice}</span>
                   </li>
                 ))}
               </ul>
-              <p className="text-gray-600">
+              <p className="font-opensans text-gray-600">
                 Our sustainable practices not only benefit the environment but also result in fresher, more flavorful
                 dishes for our clients and their guests.
               </p>
             </div>
             <div className="relative h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="sustainability.png"
                 alt="Sustainable catering practices"
                 fill
                 className="object-cover rounded-lg"
@@ -281,8 +281,8 @@ export default function AboutPage() {
       {/* CTA Section */}
       <section className="py-16 px-4 md:px-6 bg-amber-700 text-white">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Experience Our Catering?</h2>
-          <p className="max-w-2xl mx-auto mb-8">
+          <h2 className="font-cinzel text-3xl font-bold mb-4">Ready to Experience Our Catering?</h2>
+          <p className="font-opensans max-w-2xl mx-auto mb-8">
             Contact us today to discuss your event and discover how we can create a memorable culinary experience for
             you and your guests.
           </p>
@@ -292,9 +292,12 @@ export default function AboutPage() {
                 Book Now <Calendar className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-amber-800">
-              <Link href="/contact">Contact Us</Link>
+            <Button size="lg" className="bg-white text-amber-700 hover:bg-gray-100">
+              <Link href="/contact" className="flex items-center">
+               Contact Us
+              </Link>
             </Button>
+            
           </div>
         </div>
       </section>
@@ -303,3 +306,4 @@ export default function AboutPage() {
     </div>
   )
 }
+

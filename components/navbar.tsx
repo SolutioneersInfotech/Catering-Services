@@ -36,8 +36,8 @@ export default function Navbar() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
-            <span className={`text-2xl font-bold ${isScrolled ? "text-amber-700" : "text-white"}`}>
-              Gourmet Gatherings
+            <span className={`text-2xl font-playfair ${isScrolled ? "text-amber-700" : "text-white"}`}>
+              The Halwai
             </span>
           </Link>
         </div>
@@ -48,7 +48,7 @@ export default function Navbar() {
             <Link
               key={item.name}
               href={item.href}
-              className={`text-sm font-medium transition-colors ${
+              className={`text-sm font-lato transition-colors ${
                 pathname === item.href
                   ? isScrolled
                     ? "text-amber-700"
@@ -61,8 +61,8 @@ export default function Navbar() {
               {item.name}
             </Link>
           ))}
-          <Button className="bg-amber-600 hover:bg-amber-700 text-white ml-2">
-            <Link href="/booking">Book Now</Link>
+          <Button className="font-lato bg-amber-600 hover:bg-amber-700  text-white ml-2">
+            <Link href="/booking" >Book Now</Link>
           </Button>
         </nav>
 

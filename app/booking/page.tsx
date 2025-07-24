@@ -117,14 +117,14 @@ export default function BookingPage() {
                     <Mail className="h-5 w-5 text-amber-600 mr-3 mt-0.5" />
                     <div>
                       <p className="font-medium">Email</p>
-                      <p className="text-gray-600">bookings@gourmetgatherings.com</p>
+                      <p className="text-gray-600">bookings@thehalwai.com</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <MapPin className="h-5 w-5 text-amber-600 mr-3 mt-0.5" />
                     <div>
                       <p className="font-medium">Office Address</p>
-                      <p className="text-gray-600">123 Gourmet Street, Culinary District, City, 12345</p>
+                      <p className="text-gray-600">The Halwai , Near Narayana Vatika Marriage Lawn , Takrohi</p>
                     </div>
                   </div>
                   <div className="flex items-start">

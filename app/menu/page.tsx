@@ -187,15 +187,15 @@ export default function MenuPage() {
       {/* Hero Section */}
       <section className="relative h-[400px] w-full">
         <Image
-          src="/placeholder.svg?height=400&width=1200"
+          src="catering-menu.jpg"
           alt="Gourmet food display"
           fill
           className="object-cover brightness-[0.7]"
           priority
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 md:px-6">
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">Our Catering Menu</h1>
-          <p className="text-xl text-white max-w-2xl">
+          <h1 className="font-cinzel text-3xl md:text-5xl  text-white mb-4">Our Catering Menu</h1>
+          <p className="font-opensans text-xl text-white max-w-2xl">
             Exquisite dishes crafted with the finest ingredients to delight your guests.
           </p>
         </div>
@@ -204,8 +204,8 @@ export default function MenuPage() {
       {/* Menu Introduction */}
       <section className="py-12 px-4 md:px-6 bg-white">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Culinary Excellence for Every Occasion</h2>
-          <p className="text-gray-600 max-w-3xl mx-auto mb-8">
+          <h2 className="font-cinzel text-3xl font-bold mb-4">Culinary Excellence for Every Occasion</h2>
+          <p className="font-opensans text-gray-600 max-w-3xl mx-auto mb-8">
             Our menu features a diverse selection of gourmet dishes prepared by our expert chefs. We use only the
             freshest, highest-quality ingredients to create memorable dining experiences for your events.
           </p>
@@ -246,15 +246,15 @@ export default function MenuPage() {
             {menuCategories.map((category) => (
               <TabsContent key={category.id} value={category.id} className="mt-6">
                 <div id={category.id} className="scroll-mt-20">
-                  <h3 className="text-2xl font-bold mb-8 text-center">{category.name}</h3>
+                  <h3 className="font-cinzel text-2xl font-bold mb-8 text-center">{category.name}</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {category.items.map((item, index) => (
                       <div key={index} className="border-b border-gray-200 pb-6">
                         <div className="flex justify-between items-start mb-2">
-                          <h4 className="text-xl font-semibold">{item.name}</h4>
+                          <h4 className="font-cinzel text-xl font-semibold">{item.name}</h4>
                           <span className="font-medium text-amber-700">{item.price}</span>
                         </div>
-                        <p className="text-gray-600 mb-2">{item.description}</p>
+                        <p className="font-opensans text-gray-600 mb-2">{item.description}</p>
                         {item.dietary && (
                           <div className="flex gap-2 mt-2">
                             {item.dietary.map((diet) => (
@@ -281,8 +281,8 @@ export default function MenuPage() {
           <div className="bg-amber-50 rounded-lg p-8 md:p-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-2xl font-bold mb-4">Custom Menu Creation</h3>
-                <p className="text-gray-600 mb-6">
+                <h3 className="font-cinzel text-2xl font-bold mb-4">Custom Menu Creation</h3>
+                <p className="font-opensans text-gray-600 mb-6">
                   Don't see exactly what you're looking for? Our culinary team specializes in creating custom menus
                   tailored to your specific preferences, dietary requirements, and event theme.
                 </p>
@@ -296,22 +296,22 @@ export default function MenuPage() {
                   ].map((feature, index) => (
                     <li key={index} className="flex items-start">
                       <Utensils className="h-5 w-5 text-amber-600 mr-2 mt-0.5" />
-                      <span>{feature}</span>
+                      <span className="font-opensans">{feature}</span>
                     </li>
                   ))}
                 </ul>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button className="bg-amber-600 hover:bg-amber-700 text-white">
+                  <Button className="bg-amber-600 hover:bg-amber-700 text-white font-lato">
                     <Link href="/contact">Request Custom Menu</Link>
                   </Button>
-                  <Button variant="outline">
+                  <Button variant="outline" className="font-lato">
                     <Link href="/booking">Schedule Tasting</Link>
                   </Button>
                 </div>
               </div>
               <div className="relative h-[300px] md:h-[400px]">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="custom-menu.jpg"
                   alt="Chef preparing custom menu"
                   fill
                   className="object-cover rounded-lg"
@@ -329,7 +329,7 @@ export default function MenuPage() {
           <p className="max-w-2xl mx-auto mb-8">
             Contact us today to discuss your catering needs and create the perfect menu for your event.
           </p>
-          <Button size="lg" className="bg-white text-amber-700 hover:bg-gray-100">
+          <Button size="lg" className="font-lato bg-white text-amber-700 hover:bg-gray-100" >
             <Link href="/booking">Book Your Catering</Link>
           </Button>
         </div>

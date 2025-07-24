@@ -25,8 +25,8 @@ export default function ContactPage() {
           priority
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 md:px-6">
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">Contact Us</h1>
-          <p className="text-xl text-white max-w-2xl">Get in touch with our team to discuss your catering needs.</p>
+          <h1 className="font-cinzel text-3xl md:text-5xl font-bold text-white mb-4">Contact Us</h1>
+          <p className="font-opensans text-xl text-white max-w-2xl">Get in touch with our team to discuss your catering needs.</p>
         </div>
       </section>
 
@@ -35,8 +35,8 @@ export default function ContactPage() {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
-              <p className="text-gray-600 mb-8">
+              <h2 className="font-cinzel text-3xl font-bold mb-6">Get In Touch</h2>
+              <p className="font-opensans text-gray-600 mb-8">
                 Have questions about our catering services? Want to check availability for your event date? Fill out the
                 form below or contact us directly using the information provided.
               </p>
@@ -47,9 +47,9 @@ export default function ContactPage() {
                     <MapPin className="h-6 w-6 text-amber-600" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold mb-1">Our Location</h3>
-                    <p className="text-gray-600">123 Gourmet Street, Culinary District</p>
-                    <p className="text-gray-600">City, State 12345</p>
+                    <h3 className="font-cinzel text-lg font-semibold mb-1">Our Location</h3>
+                    <p className="font-opensans text-gray-600">The Halwai , Near Narayana Vatika Marriage Lawn , Takrohi</p>
+                    <p className="font-opensans text-gray-600">City, State 12345</p>
                   </div>
                 </div>
 
@@ -58,9 +58,9 @@ export default function ContactPage() {
                     <Phone className="h-6 w-6 text-amber-600" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold mb-1">Phone</h3>
-                    <p className="text-gray-600">Main: (123) 456-7890</p>
-                    <p className="text-gray-600">Bookings: (123) 456-7891</p>
+                    <h3 className="font-cinzel text-lg font-semibold mb-1">Phone</h3>
+                    <p className="font-opensans text-gray-600">Main: (123) 456-7890</p>
+                    <p className="font-opensans text-gray-600">Bookings: (123) 456-7891</p>
                   </div>
                 </div>
 
@@ -69,9 +69,9 @@ export default function ContactPage() {
                     <Mail className="h-6 w-6 text-amber-600" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold mb-1">Email</h3>
-                    <p className="text-gray-600">info@gourmetgatherings.com</p>
-                    <p className="text-gray-600">bookings@gourmetgatherings.com</p>
+                    <h3 className="font-cinzel text-lg font-semibold mb-1">Email</h3>
+                    <p className="font-opensans text-gray-600">info@thehalwai.com</p>
+                    <p className="font-opensans text-gray-600">bookings@thehalwai.com</p>
                   </div>
                 </div>
 
@@ -80,10 +80,10 @@ export default function ContactPage() {
                     <Clock className="h-6 w-6 text-amber-600" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold mb-1">Business Hours</h3>
-                    <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
-                    <p className="text-gray-600">Saturday: 10:00 AM - 4:00 PM</p>
-                    <p className="text-gray-600">Sunday: Closed</p>
+                    <h3 className="font-cinzel text-lg font-semibold mb-1">Business Hours</h3>
+                    <p className="font-opensans text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                    <p className="font-opensans text-gray-600">Saturday: 10:00 AM - 4:00 PM</p>
+                    <p className="font-opensans text-gray-600">Sunday: Closed</p>
                   </div>
                 </div>
               </div>
@@ -123,7 +123,7 @@ export default function ContactPage() {
 
             <div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-6">Send Us a Message</h3>
+                <h3 className="font-cinzel text-xl font-semibold mb-6">Send Us a Message</h3>
                 <form className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-2">
@@ -174,7 +174,7 @@ export default function ContactPage() {
                     />
                   </div>
 
-                  <Button type="submit" className="w-full bg-amber-600 hover:bg-amber-700 text-white">
+                  <Button type="submit" className="font-cinzel w-full bg-amber-600 hover:bg-amber-700 text-white">
                     <Send className="mr-2 h-4 w-4" /> Send Message
                   </Button>
                 </form>
@@ -188,8 +188,8 @@ export default function ContactPage() {
       <section className="py-12 px-4 md:px-6 bg-gray-50">
         <div className="container mx-auto">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold mb-4">Our Location</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+            <h2 className="font-cinzel text-3xl font-bold mb-4">Our Location</h2>
+            <p className="font-opensans text-gray-600 max-w-2xl mx-auto">
               Visit our office to discuss your catering needs in person or to schedule a tasting.
             </p>
           </div>
@@ -209,8 +209,8 @@ export default function ContactPage() {
       <section className="py-12 px-4 md:px-6 bg-white">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+            <h2 className="font-cinzel text-3xl font-bold mb-4">Frequently Asked Questions</h2>
+            <p className="font-opensans text-gray-600 max-w-2xl mx-auto">
               Find quick answers to common questions about our catering services.
             </p>
           </div>
@@ -239,14 +239,14 @@ export default function ContactPage() {
               },
             ].map((faq, index) => (
               <div key={index} className="border-b border-gray-200 pb-4">
-                <h3 className="text-lg font-semibold mb-2">{faq.question}</h3>
-                <p className="text-gray-600">{faq.answer}</p>
+                <h3 className="font-cinzel text-lg font-semibold mb-2">{faq.question}</h3>
+                <p className="font-opensans text-gray-600">{faq.answer}</p>
               </div>
             ))}
           </div>
 
           <div className="text-center mt-8">
-            <Link href="/booking" className="text-amber-600 hover:text-amber-700 font-medium">
+            <Link href="/booking" className="font-cinzel text-amber-600 hover:text-amber-700 font-medium">
               Ready to book? Start your catering request now →
             </Link>
           </div>

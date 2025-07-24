@@ -106,8 +106,8 @@ export default function GalleryPage() {
           priority
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 md:px-6">
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">Our Catering Gallery</h1>
-          <p className="text-xl text-white max-w-2xl">Browse our portfolio of past events and culinary creations.</p>
+          <h1 className="font-cinzel text-3xl md:text-5xl font-bold text-white mb-4">Our Catering Gallery</h1>
+          <p className="font-opensans text-xl text-white max-w-2xl">Browse our portfolio of past events and culinary creations.</p>
         </div>
       </section>
 
@@ -115,8 +115,8 @@ export default function GalleryPage() {
       <section className="py-12 px-4 md:px-6 bg-white">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Showcasing Our Finest Work</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+            <h2 className="font-cinzel text-3xl font-bold mb-4">Showcasing Our Finest Work</h2>
+            <p className="font-opensans text-gray-600 max-w-2xl mx-auto">
               Explore our gallery to see examples of our catering services for various events and occasions.
             </p>
           </div>
@@ -175,8 +175,8 @@ export default function GalleryPage() {
       <section className="py-12 px-4 md:px-6 bg-amber-50">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Client Testimonials</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+            <h2 className="font-cinzel text-3xl font-bold mb-4">Client Testimonials</h2>
+            <p className="font-opensans text-gray-600 max-w-2xl mx-auto">
               Don't just take our word for it. Here's what our clients have to say about our catering services.
             </p>
           </div>
@@ -191,7 +191,7 @@ export default function GalleryPage() {
               },
               {
                 quote:
-                  "Professional, punctual, and the food was exceptional. Our corporate event was a huge success thanks to Gourmet Gatherings.",
+                  "Professional, punctual, and the food was exceptional. Our corporate event was a huge success thanks to The Halwai.",
                 author: "Michael Thompson",
                 event: "Annual Corporate Gala",
               },
@@ -231,12 +231,12 @@ export default function GalleryPage() {
       {/* CTA Section */}
       <section className="py-12 px-4 md:px-6 bg-amber-700 text-white">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Create Your Own Memorable Event?</h2>
-          <p className="max-w-2xl mx-auto mb-8">
+          <h2 className="font-cinzel text-3xl font-bold mb-4">Ready to Create Your Own Memorable Event?</h2>
+          <p className="font-opensans max-w-2xl mx-auto mb-8">
             Contact us today to discuss your catering needs and let us help you create a memorable experience for your
             guests.
           </p>
-          <Button size="lg" className="bg-white text-amber-700 hover:bg-gray-100">
+          <Button size="lg" className="bg-white text-amber-700 hover:bg-gray-100 font-lato">
             <Link href="/booking" className="flex items-center">
               Book Your Catering <Calendar className="ml-2 h-4 w-4" />
             </Link>

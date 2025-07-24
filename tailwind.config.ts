@@ -19,6 +19,15 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        cinzel: ['Cinzel'],
+        opensans: ['Open Sans'],
+        tangerine: ['Tangerine', 'cursive'],
+        playfair: ['"Playfair Display"', 'serif'],
+        lato: ['Lato', 'sans-serif'],
+         prata: ['Prata', 'serif'],
+         baloo: ['"Baloo 2"', 'cursive'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
