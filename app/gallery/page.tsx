@@ -99,7 +99,7 @@ export default function GalleryPage() {
       {/* Hero Section */}
       <section className="relative h-[300px] w-full">
         <Image
-          src="/placeholder.svg?height=300&width=1200"
+          src="gallery-bg.jpg"
           alt="Gallery of catering events"
           fill
           className="object-cover brightness-[0.7]"

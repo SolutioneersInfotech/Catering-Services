@@ -18,7 +18,7 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="relative h-[300px] w-full">
         <Image
-          src="/placeholder.svg?height=300&width=1200"
+          src="contact-bg.jpg"
           alt="Contact us"
           fill
           className="object-cover brightness-[0.7]"
