@@ -31,7 +31,7 @@ export default function AboutSection() {
             <div className="absolute top-4 right-[3rem] translate-x-1/2 -translate-y-1/2 z-10">
               <div className="bg-[#a01a42] rounded-full h-28 w-28 flex flex-col items-center justify-center text-white border-4 border-[#f0c088]">
                 <div className="text-lg font-medium">Since</div>
-                <div className="text-4xl font-bold">1998</div>
+                <div className="text-4xl font-bold">2008</div>
               </div>
             </div>
           </div>

@@ -99,7 +99,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-2xl font-baloo mb-2">Award-Winning Service</h3>
                   <p className="font-opensans text-gray-600 text-lg">
-                    With over 10 years of experience, our professional staff ensures flawless execution.
+                    With over 15+ years of experience, our professional staff ensures flawless execution.
                   </p>
                 </div>
               </CardContent>
