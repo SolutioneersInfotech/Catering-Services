@@ -25,6 +25,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;500;700&display=swap"
           rel="stylesheet"
         />
+        <link rel="icon" type="image/png" href="main-logo.png" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>

@@ -13,7 +13,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-playfair font-bold text-white mb-4">The Halwai</h3>
             <p className="mb-4">
-              Elevating events with exceptional catering services since 2010. Licensed and certified culinary experts.
+              Elevating events with exceptional catering services since 2008. Licensed and certified culinary experts.
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="hover:text-amber-500 transition-colors">

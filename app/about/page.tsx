@@ -22,7 +22,7 @@ export default function AboutPage() {
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 md:px-6">
           <h1 className="text-3xl md:text-5xl font-cinzel text-white mb-4">About The Halwai</h1>
-          <p className="font-opensans text-xl text-white max-w-2xl">Crafting exceptional culinary experiences since 2010.</p>
+          <p className="font-opensans text-xl text-white max-w-2xl">Crafting exceptional culinary experiences since 2008.</p>
         </div>
       </section>
 
@@ -41,7 +41,7 @@ export default function AboutPage() {
             <div>
               <h2 className="font-cinzel text-3xl mb-6">Our Story</h2>
               <p className="font-opensans text-gray-600 mb-4">
-                The Halwai was founded in 2010 by xyz, whose passion for culinary excellence
+                The Halwai was founded in 2008 by Ashish Kumar Gupta, whose passion for culinary excellence
                 and exceptional service inspired him to create a catering company that would elevate events through
                 extraordinary food experiences.
               </p>
